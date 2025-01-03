@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Audiowide&family=Delicious+Handrawn&family=Indie+Flower&family=Orbitron:wght@400..900&family=Saira+Stencil+One&family=Shadows+Into+Light+Two&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Silkscreen:wght@400;700&family=Sriracha&family=Tangerine:wght@400;700&family=The+Girl+Next+Door&display=swap');
+
+
+:root {
+ --main-color: #522A27;
+ --color-two: #FFFFFF; 
+ --color-three: #9cb380;
+ --color-four: #a6d49f;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: var(--color-three);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  font-family: "Orbitron", serif;
+  font-weight: 200;
+
+  color: var(--main-color);
+  text-decoration: underline solid var(--main-color) 0.2rem;
+
+  height: 70px;
+  background-color: var(--color-four);
+  display: flex;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  position: relative;
+
+  margin: 1rem;
+  border: 0.5rem solid var(--main-color);
+  border-radius: 1%;
+}
+
+iframe {
+  flex: 1;
+  background-color: #fff;
+}
+
+#logocontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 16px;
+}
+
+#buttoncontainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+button {
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 8px;
+
+  background-color: var(--main-color);
+  color: var(--color-two);
+
+  cursor: pointer;
+  transition: ease-in 150ms;
+
+  margin: 0 0.5rem;
+}
+
+button:hover {
+  transform: scale(105%) ;
+}
+
+#editor {
+  flex: 1;
+  
+}
+
+footer {
+  text-align: center;
+  font-family: "Orbitron", serif;
+  font-weight: 200;
+
+  background-color: var(--color-four);
+}
+
+footer h2 {
+  color: var(--main-color);
+}

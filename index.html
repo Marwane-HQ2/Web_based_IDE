@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web based IDE</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30'><text x='0' y='25' font-size='25'>💾</text></svg>" type="image/svg+xml">
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+
+      <div id="logocontainer">
+        <h1>Web based IDE</h1>
+      </div>
+      
+      <div id="buttoncontainer">
+        <button onclick="downLoad()">Download HTML</button>
+        <button onclick="runCode()">Run your code</button>
+      </div>
+
+    </header>
+
+    <main>
+      <div id="editor"></div>
+      <iframe id="iframe"> </iframe>
+    </main>
+
+    <footer>
+      <h2>Made with ⭐ by M_</h2>
+    </footer>
+    
+      <script
+        src="https://ajaxorg.github.io/ace-builds/src-min-noconflict/ace.js"
+        type="text/javascript"
+        charset="utf-8"
+      ></script>
+      <!-- LET'S COMMENT -->
+    <script src="script.js"></script>
+  </body>
+</html>
